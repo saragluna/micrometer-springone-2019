@@ -1,11 +1,8 @@
-@file:Suppress("SpringFacetCodeInspection")
-
 package com.github.checketts.micrometerspringone2019
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 import org.springframework.context.annotation.Bean
-import java.util.concurrent.ScheduledExecutorService
 import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler
 
 

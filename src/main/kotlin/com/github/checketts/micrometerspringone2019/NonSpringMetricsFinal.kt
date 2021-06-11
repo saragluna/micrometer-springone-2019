@@ -1,11 +1,6 @@
 package com.github.checketts.micrometerspringone2019
 
-import io.micrometer.core.instrument.Clock
-import io.micrometer.core.instrument.Gauge
-import io.micrometer.core.instrument.Meter
-import io.micrometer.core.instrument.Metrics
-import io.micrometer.core.instrument.Tag
-import io.micrometer.core.instrument.Tags
+import io.micrometer.core.instrument.*
 import io.micrometer.core.instrument.composite.CompositeMeterRegistry
 import io.micrometer.core.instrument.config.MeterFilter
 import io.micrometer.core.instrument.logging.LoggingMeterRegistry
